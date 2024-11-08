@@ -21,7 +21,7 @@ export default {
         { id: 3, name: 'เซต แฟชั่น อะคริลิค ช้อน ส้อม ', price:  25, image: '3.jpg' },
         { id: 4, name: 'กิ๊บกระดูกหมู กิ๊บลูกชิ้น กิ๊บกวนโอ้ยเก๋ๆ ', price:  25, image: '4.jpg' },
         { id: 4, name: 'กิ๊บกระดูกหมู กิ๊บลูกชิ้น กิ๊บกวนโอ้ยเก๋ๆ ', price:  25, image: '4.jpg' },
-        // เพิ่มข้อมูลสินค้าเพิ่มเติมที่นี่
+        
       ]
     };
   }
@@ -43,12 +43,12 @@ export default {
   margin: 20px;
   border: 1px solid #ddd;
   padding: 15px;
-  width: 200px; /* ขนาดของกรอบ */
+  width: 200px; 
 }
 
 .product-image {
-  width: 100%; /* ปรับให้กว้างเต็มกรอบ */
-  height: 150px; /* กำหนดความสูงของรูปภาพ */
-  object-fit: cover; /* ให้ภาพเต็มกรอบโดยไม่บิดเบือน */
+  width: 100%; 
+  height: 150px; 
+  object-fit: cover; 
 }
 </style>

@@ -1,8 +1,8 @@
 import { createRouter, createWebHistory } from 'vue-router';
-import Home from './views/Home.vue'; // เปลี่ยนเป็นเส้นทางที่ถูกต้อง
-import Products from './views/Products.vue'; // เปลี่ยนเป็นเส้นทางที่ถูกต้อง
-import Contact from './views/Contact.vue'; // เปลี่ยนเป็นเส้นทางที่ถูกต้อง
-import Login from './views/Login.vue'; // เปลี่ยนเป็นเส้นทางที่ถูกต้อง
+import Home from './views/Home.vue'; 
+import Products from './views/Products.vue'; 
+import Contact from './views/Contact.vue'; 
+import Login from './views/Login.vue'; 
 
 const routes = [
   {

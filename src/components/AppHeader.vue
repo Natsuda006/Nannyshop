@@ -24,15 +24,15 @@ export default {
 .header {
   background-color: #ffccff;
   padding: 20px;
-  display: flex; /* ใช้ Flexbox */
-  justify-content: space-between; /* จัดตำแหน่งให้ข้อความและเมนูอยู่ห่างกัน */
-  align-items: center; /* จัดกลางในแนวตั้ง */
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
 }
 
 .logo {
-  margin: 0; /* ลบ margin ของ h1 */
-  color: black; /* เปลี่ยนสีตัวหนังสือให้เป็นสีดำ */
-  padding-right: 30px; /* เพิ่มระยะห่างด้านขวา */
+  margin: 0;
+  color: black; 
+  padding-right: 30px; 
 }
 
 .navigation {
@@ -43,27 +43,27 @@ export default {
 
 .nav-left {
   display: flex;
-  justify-content: center; /* จัดกลางให้เมนูอยู่ตรงกลาง */
+  justify-content: center; 
 }
 
 .nav-right {
-  margin-left: auto; /* ดัน nav-right ไปทางขวา */
+  margin-left: auto; 
 }
 
 nav ul {
   list-style: none;
   padding: 0;
-  margin: 0; /* ลบ margin ของ ul */
-  display: flex; /* ทำให้ ul เป็น flexbox */
+  margin: 0; 
+  display: flex; 
 }
 
 nav ul li {
   display: inline;
-  margin: 0 30px; /* เพิ่มระยะห่างระหว่างเมนู */
+  margin: 0 30px; 
 }
 
 nav ul li a {
   text-decoration: none;
-  color: black; /* เปลี่ยนสีลิงก์ให้เป็นสีดำ */
+  color: black;
 }
 </style>
